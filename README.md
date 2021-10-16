@@ -23,4 +23,59 @@ Accuracy mectrics we have used in this project are:
 EXPLORATORY DATA ANALYSIS:
 
 EDA includes extracting the twitter data based on the stock names viz, Apple, Tesla, Nvidia, Paypal and Microsoft, cleaning of twitter data that were pulled i.e., removing unnecessary data from tweets. After cleaning the data, below are the plots that were plotted against the sentiments that is Positive, Negative and Neutral.
-![image](https://user-images.githubusercontent.com/72294006/137591036-dc71e556-07a4-429d-b7de-3e5c28c308f2.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591119-28660a88-8d83-4501-8c8c-76102dc86556.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591124-fe48062b-19b1-4b50-8198-9d77f36e9978.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591135-caececd4-951b-4cf7-aba9-ca9b92c934b9.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591144-88d9741a-446e-45cb-aa19-19f6137f8475.png)
+
+
+MODELLING:
+
+We have implemented differnt ML models Linear Regression, Random Forest Regression, Decision Tree Regressor. We have choosen Random Forest Regression ML for our project as its r2 - 0.99964, rmse - 3.65. We have choosed Random Forest Regressor model as it classifies decision trees on various subsamples and uses averaging to imporve the predictive accuracy and control overfitting. So, our team decided to apply Random Forest Regression model for our project.
+
+![image](https://user-images.githubusercontent.com/72294006/137591628-021408e1-2e74-4714-8cf9-ae815b46f3d8.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591642-33edccdb-4c39-4e77-8f01-7c3e1f3009b9.png)
+
+GRAPH:
+![image](https://user-images.githubusercontent.com/72294006/137591674-fee9fe96-8b08-4c60-82d4-320bdeedcb32.png)
+
+RELATION BETWEEN FEATURES:
+
+![image](https://user-images.githubusercontent.com/72294006/137591689-469a548b-dd96-4661-bffd-603a2b773e67.png)
+
+![image](https://user-images.githubusercontent.com/72294006/137591691-01e3999d-50f2-486b-9c8a-12badc3aab33.png)
+
+DEPLOYMENT:
+
+We have deployed the model using Streamlit framework, as it is a opensource Python library that allows us to create beautiful web apps for Machine Learning. It is hosted on Heroku, as it a container based Platform As A Service(PAAS), because it is flexible and easy to host on this platform.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
