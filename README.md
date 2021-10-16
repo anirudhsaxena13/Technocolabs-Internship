@@ -39,10 +39,12 @@ We have implemented differnt ML models Linear Regression, Random Forest Regressi
 
 ![image](https://user-images.githubusercontent.com/72294006/137591748-b6915b5b-5c11-4cfa-aed5-30a50acc7ee4.png)
 
-x = df5[['Year','Month','Day','StockName','Positive','Negative','Neutral']].to_numpy()
-y = np.array(df5['Close'])
 
-for train_index, test_index in tscv.split(x):
+  x  = df5[['Year','Month','Day','StockName','Positive','Negative','Neutral']].to_numpy()
+
+  y = np.array(df5['Close'])
+
+   for train_index, test_index in tscv.split(x):
 
     x_train , x_test = x[train_index] , x[test_index]
     
