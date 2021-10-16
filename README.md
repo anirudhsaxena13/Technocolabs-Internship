@@ -48,7 +48,7 @@ We have implemented differnt ML models Linear Regression, Random Forest Regressi
 
 ![image](https://user-images.githubusercontent.com/72294006/137591674-fee9fe96-8b08-4c60-82d4-320bdeedcb32.png)
 
-RELATION BETWEEN FEATURES:
+## RELATION BETWEEN FEATURES:
 
 
 ![image](https://user-images.githubusercontent.com/72294006/137591689-469a548b-dd96-4661-bffd-603a2b773e67.png)
