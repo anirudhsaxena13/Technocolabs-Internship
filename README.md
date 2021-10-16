@@ -94,12 +94,10 @@ Video  : [Click here](https://drive.google.com/file/d/1PzLBdv7lB_q3bjo9xp-pmzDJ7
 
 ## TEAM MEMBERS
 
-Sowmya Prakash
-
-
 Anirudh Saxena
 
 
+Sowmya Prakash
 
 
 
