@@ -79,7 +79,7 @@ We have implemented differnt ML models Linear Regression, Random Forest Regressi
 
 ## DEPLOYMENT:
 
-We have deployed the model using Streamlit framework, as it is a opensource Python library that allows us to create beautiful web apps for Machine Learning. It is hosted on Heroku, as it a container based Platform As A Service(PAAS), because it is flexible and easy to host on this platform.
+We have deployed the model using Flask framework, as it is a opensource Python library that allows us to create beautiful web apps for Machine Learning. It is hosted on Heroku, as it a container based Platform As A Service(PAAS), because it is flexible and easy to host on this platform.
 
 Heroku : [Visit here](https://stock-prediction-news-headline.herokuapp.com/)
 
