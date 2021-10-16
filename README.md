@@ -43,14 +43,23 @@ x = df5[['Year','Month','Day','StockName','Positive','Negative','Neutral']].to_n
 y = np.array(df5['Close'])
 
 for train_index, test_index in tscv.split(x):
+
     x_train , x_test = x[train_index] , x[test_index]
+    
     y_train , y_test = y[train_index] , y[test_index]
+    
     regresor = LinearRegression()
+    
     regresor.fit(x_train,y_train)
+    
     y_pred = regresor.predict(x_test)
+    
     rmse = (math.sqrt(metrics.mean_squared_error(y_test,y_pred)))
+    
     mae = (metrics.mean_absolute_error(y_test, y_pred))
+    
     r2 = metrics.r2_score(y_test, y_pred)
+
 
 
 ## GRAPH:
