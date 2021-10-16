@@ -37,8 +37,7 @@ MODELLING:
 
 We have implemented differnt ML models Linear Regression, Random Forest Regression, Decision Tree Regressor. We have choosen Random Forest Regression ML for our project as its r2 - 0.99964, rmse - 3.65. We have choosed Random Forest Regressor model as it classifies decision trees on various subsamples and uses averaging to imporve the predictive accuracy and control overfitting. So, our team decided to apply Random Forest Regression model for our project.
 
-![image](https://user-images.githubusercontent.com/72294006/137591727-ee54e24c-981c-469f-923b-81f93b188045.png)
-
+![image](https://user-images.githubusercontent.com/72294006/137591748-b6915b5b-5c11-4cfa-aed5-30a50acc7ee4.png)
 
 ![image](https://user-images.githubusercontent.com/72294006/137591642-33edccdb-4c39-4e77-8f01-7c3e1f3009b9.png)
 
