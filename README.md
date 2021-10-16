@@ -83,7 +83,7 @@ We have deployed the model using Streamlit framework, as it is a opensource Pyth
 
 Heroku : [Visit here](https://stock-prediction-news-headline.herokuapp.com/)
 
-Video  : [Click here](https://youtu.be/O765MQS0l60)
+Video  : [Click here](https://drive.google.com/file/d/1PzLBdv7lB_q3bjo9xp-pmzDJ7jNMu7O4/view?usp=sharing)
 
 
 
