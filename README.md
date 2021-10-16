@@ -20,7 +20,7 @@ Accuracy mectrics we have used in this project are:
 2.)Mean Absolute Error(MAE)
 3.)Rsquared value(r2)
 
-EXPLORATORY DATA ANALYSIS:
+## EXPLORATORY DATA ANALYSIS:
 
 EDA includes extracting the twitter data based on the stock names viz, Apple, Tesla, Nvidia, Paypal and Microsoft, cleaning of twitter data that were pulled i.e., removing unnecessary data from tweets. After cleaning the data, below are the plots that were plotted against the sentiments that is Positive, Negative and Neutral.
 
@@ -33,7 +33,7 @@ EDA includes extracting the twitter data based on the stock names viz, Apple, Te
 ![image](https://user-images.githubusercontent.com/72294006/137591144-88d9741a-446e-45cb-aa19-19f6137f8475.png)
 
 
-MODELLING:
+## MODELLING:
 
 We have implemented differnt ML models Linear Regression, Random Forest Regression, Decision Tree Regressor. We have choosen Random Forest Regression ML for our project as its r2 - 0.99964, rmse - 3.65. We have choosed Random Forest Regressor model as it classifies decision trees on various subsamples and uses averaging to imporve the predictive accuracy and control overfitting. So, our team decided to apply Random Forest Regression model for our project.
 
@@ -42,7 +42,7 @@ We have implemented differnt ML models Linear Regression, Random Forest Regressi
 ![image](https://user-images.githubusercontent.com/72294006/137591642-33edccdb-4c39-4e77-8f01-7c3e1f3009b9.png)
 
 
-GRAPH:
+## GRAPH:
 
 
 
@@ -55,7 +55,7 @@ RELATION BETWEEN FEATURES:
 
 ![image](https://user-images.githubusercontent.com/72294006/137591691-01e3999d-50f2-486b-9c8a-12badc3aab33.png)
 
-DEPLOYMENT:
+## DEPLOYMENT:
 
 We have deployed the model using Streamlit framework, as it is a opensource Python library that allows us to create beautiful web apps for Machine Learning. It is hosted on Heroku, as it a container based Platform As A Service(PAAS), because it is flexible and easy to host on this platform.
 
